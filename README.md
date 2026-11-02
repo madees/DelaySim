@@ -1,5 +1,7 @@
 # DelaySim — Phase & Interference Simulator
 
+> **Original concept** by **John Taylor** and **Boris Rehders** at **d&b audiotechnik** (2014)
+
 An interactive educational web tool for understanding **phase relationships**, **acoustic interference**, and **frequency-dependent gain** in audio mixing.
 
 ## 🎯 What It Does
@@ -81,11 +83,11 @@ Great for teaching:
 - **Vite** — Lightning-fast build tool
 - **Web Audio concepts** — DFT-based spectrum analysis, dB calculations
 
-## 🙏 Credits
+## 🙏 Credits & Acknowledgments
 
-**Original concept** by **John Taylor** and **Boris Rehders** at **d&b audiotechnik** (2014)
+Web implementation and interactive simulator by [Mathieu Delquignies](https://github.com/madees)
 
-This interactive simulator brings their educational idea to life in the web browser, making phase and interference concepts accessible to audio professionals and students worldwide.
+Original concept by John Taylor and Boris Rehders at d&b audiotechnik (2014)
 
 ## 📄 License
 
