@@ -81,6 +81,12 @@ Great for teaching:
 - **Vite** — Lightning-fast build tool
 - **Web Audio concepts** — DFT-based spectrum analysis, dB calculations
 
+## 🙏 Credits
+
+**Original concept** by **John Taylor** and **Boris Rehders** at **d&b audiotechnik** (2014)
+
+This interactive simulator brings their educational idea to life in the web browser, making phase and interference concepts accessible to audio professionals and students worldwide.
+
 ## 📄 License
 
 MIT — Use freely for education and projects.
