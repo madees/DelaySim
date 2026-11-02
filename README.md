@@ -15,9 +15,20 @@ Perfect for **audio training**, **acoustics classes**, or **audio engineering ed
 
 ## 🚀 Try It Online
 
-👉 **[Open DelaySim](https://YOUR_USERNAME.github.io/delaySim/)**
+👉 **[Open DelaySim](https://madees.github.io/DelaySim/)**
 
 No installation needed — just click and play!
+
+## 🎮 Quick Start
+
+1. **Open [DelaySim](https://madees.github.io/DelaySim/)** in your browser
+2. **Generator A** produces a reference signal (sine, pink, or white noise)
+3. **Generator B** produces the same signal with adjustable **phase** and **delay**
+4. Watch how the two signals **interfere** in the time and frequency domains
+5. Adjust the **Phase** slider (or spinner with **5° steps**) to see gain changes
+6. Adjust the **Delay** slider (or spinner with **0.1 ms steps**) for time offsets
+7. Toggle **Coherence** to share or separate noise sources
+8. Check **Link Generators** to sync frequency and mode between both channels
 
 ## 🛠 Local Development
 
@@ -25,15 +36,15 @@ Want to modify or contribute?
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/delaySim.git
-cd delaySim
+git clone https://github.com/madees/DelaySim.git
+cd DelaySim
 
 # Install dependencies (one-time)
 npm install
 
 # Start dev server
 npm run dev
-# → Open http://localhost:5173/
+# → Open http://localhost:5173/DelaySim/
 
 # Build for production
 npm run build
@@ -44,13 +55,15 @@ npm run build
 | Feature | Details |
 |---------|---------|
 | **Generator A & B** | Sine, Pink Noise, White Noise modes |
-| **Level Control** | -30 dB to +10 dB range |
-| **Frequency** | 20 Hz to 2000 Hz adjustable |
-| **Phase/Delay** | 0° to 360° in degrees or 0-10 ms |
-| **Coherence Toggle** | Shared or independent noise sources |
+| **Level Control** | -30 dB to +10 dB range with real-time meter |
+| **Frequency** | 20 Hz to 2000 Hz adjustable (synchronized or independent) |
+| **Phase Control** | 0° to 360° — spinner with **5° steps** or smooth slider |
+| **Delay Control** | 0–10 ms — spinner with **0.1 ms steps** or smooth slider |
+| **Coherence Toggle** | Shared or independent noise sources for A and B |
+| **Link Generators** | Sync frequency and mode between both channels |
 | **Level Meter** | Real-time output with interference gain display |
-| **Oscilloscope** | Time-domain view of A, B, and sum |
-| **Spectrum Analyzer** | Frequency-domain representation |
+| **Oscilloscope** | Time-domain view of A, B, and combined signal |
+| **Spectrum Analyzer** | Frequency-domain with log/linear scale and smoothing |
 
 ## 🎓 Educational Use
 
