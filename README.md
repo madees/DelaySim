@@ -2,7 +2,7 @@
 
 An interactive educational web tool for understanding **phase relationships**, **acoustic interference**, and **frequency-dependent gain** in audio mixing.
 
-> **Original concept** by **John Taylor** and **Boris Rehders** at **d&b audiotechnik** (2014)
+> **Original concept** by **John Taylor** and **Boris Rehders** at **d&b audiotechnik** (with LabView, 2014)
 
 ## 🎯 What It Does
 
