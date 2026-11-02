@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/delaySim/',
+  base: '/soundtools-demo/',
   build: {
     outDir: 'dist',
     emptyOutDir: true,
